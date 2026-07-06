@@ -1,0 +1,36 @@
+# Ignore Maven build output
+**/target/
+**/*.class
+**/*.war
+**/*.ear
+**/*.tar.gz
+
+# Ignore Node.js / Frontend dependencies and builds
+**/node_modules/
+**/dist/
+**/build/
+.eslintcache
+
+# Ignore IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.metadata/
+bin/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# OS-specific
+[Dd]esktop.ini
+
+# Ignore application specific logs/temp
+**/logs/
+**/temp/
+**/uploads/
